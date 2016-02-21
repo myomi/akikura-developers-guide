@@ -20,6 +20,7 @@
    * [2-9. Google Chrome](chapter02/02_08_chrome.md)
    * [2-10. （Windowsユーザのみ）WinSCP](chapter02/0209winscp.md)
    * [2-11. （Macユーザのみ）Cyberduck](chapter02/0210cyberduck.md)
+   * [2-12. （Windowsユーザのみ）Teraterm](chapter02/0211teraterm.md)
 * [3.開発サーバへの接続](chapter03/README.md)
    * [3-1. 鍵の作成](chapter03/0301key.md)
    * [3-2. 公開鍵の提出](chapter03/0302keymail.md)
