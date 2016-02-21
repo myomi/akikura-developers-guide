@@ -26,6 +26,6 @@
    * [3-2. 公開鍵の提出](chapter03/0302keymail.md)
    * [3-3. ファイルサーバに接続する](chapter03/0303scp.md)
    * [3-4. Subversionに接続する](chapter03/0304svn.md)
-   * [3-5. SSHに接続する](chapter03/0305ssh.md)
+   * [3-5. データベースに接続する](chapter03/0305db.md)
 
 
