@@ -6,7 +6,7 @@
    * [1-2. 弊社から返信メールが届きます](chapter01/01_02_mail2.md)
    * [1-3. Slackの招待メールが来ます](chapter01/01_03_slack1.md)
    * [1-4. Slackクライアントアプリのインストール](chapter01/01_04_slack2.md)
-   * [1-5. Backlogの招待メールが来ます
+   * [1-5. Backlogの招待メールが来ます](chapter01/01_05_backlog.md)
    * [1-6. この後の作業](chapter01/01_06_whatsnext.md)
 * [2.ツールのインストール](chapter02/README.md)
    * [2-1. ツール一覧](chapter02/02_01_list.md)
