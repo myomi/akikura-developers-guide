@@ -4,4 +4,4 @@
 ## インストール
 [WinSCPのダウンロードページ](https://www.google.co.jp/chrome/browser/desktop/index.html)より、インストーラを入手し、インストールしてください。
 
-![ダウンロードリンク](../images/image-02-0008.png)
+![ダウンロードリンク](../images/image-02-0009.png)
