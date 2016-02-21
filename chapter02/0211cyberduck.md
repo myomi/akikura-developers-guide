@@ -4,5 +4,5 @@
 ## インストール
 [Cyberduckのダウンロードページ](https://cyberduck.io/index.ja.html?l=ja)より、zpiファイルをダウンロードしてください。Mac App Storeの有料版もありますが、フリー版(zip）で構いません。
 
-![ダウンロードリンク](../images/image-02-0009.png)
+![ダウンロードリンク](../images/image-02-0008.png)
 
