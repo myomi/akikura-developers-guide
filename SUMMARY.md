@@ -27,5 +27,5 @@
    * [3-3. ファイルサーバに接続する](chapter03/0303scp.md)
    * [3-4. Subversionに接続する](chapter03/0304svn.md)
    * [3-5. データベースに接続する](chapter03/0305db.md)
-* [4.研修 リレーショナルデータベース基礎](chapter04/README.md)
+* [4.研修 リレーショナルデータベース基礎](chapter04/README)
 
