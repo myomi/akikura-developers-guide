@@ -85,11 +85,14 @@ SQLが書けるとこんなお仕事ができる
 ![](../images/image-04-0003.png)
 
 
-- スクラップブックファイルが開くので、接続先DBを選択（DBの種類はPostgreSQL_8.xを）
+- スクラップブックファイルが開くので、接続先DBを選択（DBの種類はPostgreSQL_8.xを選択）
 
 ![](../images/image-04-0004.png)
 
 - テキストエディタ部にSQL文を書く
+
+![](../images/image-04-0005.png)
+
 - テキストエディタを右クリック->Execute AllでSQL実行
 - 実行結果は、SQL Resultsビューに表示される。
 
