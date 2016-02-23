@@ -78,6 +78,9 @@ SQLが書けるとこんなお仕事ができる
 1. STSを起動する
 2. Database Developmentパースペクティブを開く
 3. Database Connections -> PostgreSQL（人によってラベル文言が違う）を右クリックし、「Open SQL Scrapbook」を選択
+4. スクラップブックファイルが開くので、接続先DBを選択（DBの種類はPostgreSQL_8.x）
+5. テキストエディタ部にSQL文を書く
+6. テキストエディタを右クリック->
 
 
 
