@@ -75,12 +75,20 @@ SQLが書けるとこんなお仕事ができる
 - 回答を見ずに、考えてSQLを書こうとしてはいけない。回答を写経して、「こんなものなのか」と思ってもらうだけでOK。
 
 ### 課題の実行方法
-1. STSを起動する
-2. Database Developmentパースペクティブを開く
-3. Database Connections -> PostgreSQL（人によってラベル文言が違う）を右クリックし、「Open SQL Scrapbook」を選択
-4. スクラップブックファイルが開くので、接続先DBを選択（DBの種類はPostgreSQL_8.x）
-5. テキストエディタ部にSQL文を書く
-6. テキストエディタを右クリック->
+- STSを起動する
+
+- Database Developmentパースペクティブを開く
+
+- Database Connections -> PostgreSQL（人によってラベル文言が違う）を右クリックし、「Open SQL Scrapbook」を選択
+
+
+![](../images/image-04-0003.png)
+
+
+- スクラップブックファイルが開くので、接続先DBを選択（DBの種類はPostgreSQL_8.x）
+- テキストエディタ部にSQL文を書く
+- テキストエディタを右クリック->Execute AllでSQL実行
+- 実行結果は、SQL Resultsビューに表示される。
 
 
 
