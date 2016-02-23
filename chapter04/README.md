@@ -94,8 +94,13 @@ SQLが書けるとこんなお仕事ができる
 ![](../images/image-04-0005.png)
 
 - テキストエディタを右クリック->Execute AllでSQL実行
+
+
 - 実行結果は、SQL Resultsビューに表示される。
 
+![](../images/image-04-0006.png)
+
+![](../images/image-04-0007.png)
 
 
 
