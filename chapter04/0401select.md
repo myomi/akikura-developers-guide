@@ -57,3 +57,18 @@ order by
 #### 解説
 select 句にカラム名を列挙すると、出力するカラムを絞り込める
 
+### 0004. カラムに別名をつける
+- （お客さん）「name と unit_rateの列名なんだけどさ、あれ日本語で表示できないの？ここは日本なんだからさ、当然日本語っしょ」
+- （あなた）「Why Japanese People？」
+- （お客さん）「時事ネタを入れると、このマニュアルのメンテが面倒くさいぞ？」
+
+```sql
+select
+  id,
+  name,
+  unit_rate
+from owners
+order by
+  unit_rate asc
+;
+```
