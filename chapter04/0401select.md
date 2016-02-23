@@ -65,8 +65,8 @@ select 句にカラム名を列挙すると、出力するカラムを絞り込�
 ```sql
 select
   id,
-  name,
-  unit_rate
+  name as '荷主名',
+  unit_rate as '単価レート'
 from owners
 order by
   unit_rate asc
