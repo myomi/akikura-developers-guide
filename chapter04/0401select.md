@@ -33,3 +33,20 @@ order by
   unit_rate asc
 ;
 ```
+
+### 0003. カラムを絞り込む
+（お客さん）「荷主全データ、見たいのはID・名前・単価レートだけなんだけど」
+（あなた）「並び順は？」
+（お客さん）「単価レートの低い順だっつってんだろ」
+
+#### 回答
+```sql
+select
+  id,
+  name,
+  unit_rate
+from owners
+order by
+  unit_rate asc
+;
+```
