@@ -29,5 +29,9 @@
 | PostgreSQL | オープンソース | インターンで使うRDB。 |
 | H2 | オープンソース | Javaで書かれたRDB。 |
 
+## write/readするための専用言語
+RDBからデータを読み書きするための専用言語が
+**SQL(Structured Query Language)**
+
 
 
