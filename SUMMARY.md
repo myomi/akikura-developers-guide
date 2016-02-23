@@ -28,4 +28,5 @@
    * [3-4. Subversionに接続する](chapter03/0304svn.md)
    * [3-5. データベースに接続する](chapter03/0305db.md)
 * [4.研修 リレーショナルデータベース基礎](chapter04/README.md)
+   * [4-1. read - SELECT文](chapter04/0401select.md)
 
