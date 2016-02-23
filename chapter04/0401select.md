@@ -65,10 +65,15 @@ select 句にカラム名を列挙すると、出力するカラムを絞り込�
 ```sql
 select
   id,
-  name as '荷主名',
-  unit_rate as '単価レート'
+  name as 荷主名,
+  unit_rate as 単価レート
 from owners
 order by
   unit_rate asc
 ;
 ```
+
+#### 解説
+as で別名をつける。from句のテーブル名に対しても利用できるが、それは後述。
+
+### 
