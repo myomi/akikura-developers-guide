@@ -204,7 +204,22 @@ where name != '石山不動産'
 否定演算子は !=
 
 
+### 0012. NULL検索
+- （お客さん）「解約日が決まってない荷主は誰だ。」
+- （あなた）「...」
 
+
+#### 回答
+```sql
+select
+  *
+from owners
+where cancellation_date is null
+;
+```
+
+#### 解説
+否定演算子は !=
 
 
 
