@@ -424,9 +424,14 @@ inner join size
 #### 回答
 ```sql
 select
-  o.id,
-  o.date,
+  o.id as オーダーID,
+  o.date as オーダー日,
   ow.name as 荷主名,
+  o.departure_post_code as 発地郵便番号,
+  o.departure_address1 as 発地住所1,
+  o.departure_address2,
+  o.departure_address3,
+  
 from orders as o
 inner join order_detail as od
   on o.id = od.order_id
