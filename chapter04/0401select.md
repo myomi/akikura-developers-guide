@@ -391,3 +391,31 @@ inner join owners
 - 二つのテーブルを紐付けるにはjoinを使う
 - 紐付けるキーをonで指定
 
+
+### 00022. 結合
+- （お客さん）「オーダーを一覧で見せてくれ」
+- （あなた）「ほい」
+```
+select
+  *
+from orders
+;
+```
+- （お客さん）「なんだよこれ、荷主IDだけじゃ誰からのオーダーかわかんないよ。荷主名を出してくれよ」
+
+
+#### 回答
+```sql
+select
+  orders.*,
+  owners.name as 荷主名
+from orders
+inner join owners
+  on orders.owner_id = owners.id
+;
+```
+
+#### 解説
+- 二つのテーブルを紐付けるにはjoinを使う
+- 紐付けるキーをonで指定
+
