@@ -365,3 +365,22 @@ from owners
 
 ## 結合
 ### 00021. 内部結合
+- （お客さん）「オーダーを一覧で見せてくれ」
+- （あなた）「ほい」
+```
+select
+  *
+from orders
+;
+```
+
+#### 回答
+```sql
+select
+  sum(unit_rate * 100000)
+from owners
+;
+```
+
+#### 解説
+- 合計はsum
