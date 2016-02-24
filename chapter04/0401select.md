@@ -251,7 +251,7 @@ select
   *
 from owners
 where name like '%住%'
-  and name like '%酒%'
+   or name like '%酒%'
 ;
 ```
 
