@@ -85,9 +85,13 @@ as で別名をつける。from句のテーブル名に対しても利用でき�
 select
   id,
   name as 荷主名,
-  unit_rate as 単価レート
+  unit_rate || '%' as 単価レート
 from owners
 order by
   unit_rate asc
 ;
 ```
+
+#### 解説
+- 文字列連結の演算子は ||
+- 文字列リテラルはシングルクオートで囲む
