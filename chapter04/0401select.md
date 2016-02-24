@@ -373,12 +373,16 @@ select
 from orders
 ;
 ```
+- （お客さん）「なんだよこれ、荷主IDだけじゃ誰からのオーダーかわかんないよ。荷主名を出してくれよ」
+
 
 #### 回答
 ```sql
 select
-  sum(unit_rate * 100000)
-from owners
+  *
+from orders
+inner join owners
+  on orders.owner_id = owners.id
 ;
 ```
 
