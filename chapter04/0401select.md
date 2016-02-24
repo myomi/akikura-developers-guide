@@ -430,7 +430,7 @@ select
   o.departure_post_code as 発地郵便番号,
   o.departure_address1 as 発地住所1,
   o.departure_address2 as 発地住所2,
-  o.departure_address3 as ,
+  o.departure_address3 as 発地住所3,
   
 from orders as o
 inner join order_detail as od
