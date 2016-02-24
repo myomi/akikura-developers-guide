@@ -301,13 +301,13 @@ where length(name) >= 5
 ```sql
 select
   *,
-  length(name) as 名前の
+  length(name) as 名前の文字数
 from owners
 where length(name) >= 5
 ;
 ```
 
 #### 解説
-- 長さを数えるのはlength関数
+- 関数はselect句にも使える
 
 
