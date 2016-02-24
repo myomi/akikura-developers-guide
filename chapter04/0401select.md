@@ -355,7 +355,7 @@ from owners;
 ```sql
 select
   sum(unit_rate * 100000)
-from owners;
+from owners
 ;
 ```
 
