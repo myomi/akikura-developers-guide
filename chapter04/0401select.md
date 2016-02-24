@@ -379,7 +379,8 @@ from orders
 #### 回答
 ```sql
 select
-  *
+  orders.*,
+  owners.name as 荷主名
 from orders
 inner join owners
   on orders.owner_id = owners.id
