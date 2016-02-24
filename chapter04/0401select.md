@@ -319,3 +319,16 @@ where length(name) >= 5
 
 
 ## 集約
+### 0018. 件数
+- （お客さん）「傭車先の件数を教えてよ」
+
+#### 回答
+```sql
+select
+  count(*),
+from trucking_companies
+;
+```
+
+#### 解説
+- 関数はselect句にも使える
