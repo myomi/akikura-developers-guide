@@ -224,14 +224,15 @@ where cancellation_date is null
 
 ## 複数の検索条件
 ### 0013. AND検索
-- （お客さん）「『住吉酒造』っていう荷主さんのデータが見たいんだけど」
+- （お客さん）「契約日が2016-01-01以降で、単価レートが1.5より大きな荷主教えて」
 
 #### 回答
 ```sql
 select
   *
 from owners
-where name = '住吉酒造'
+where contract_date >= to_date('2016-01-01', 'YYYY-MM-DD')
+  and unit_rate > 1.5
 ;
 ```
 
