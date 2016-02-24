@@ -219,7 +219,8 @@ where cancellation_date is null
 ```
 
 #### 解説
-否定演算子は !=
+- NULLかどうかを判定するのは、IS NULL。
+- NULLでないものはIS NOT NULL。
 
 
 
