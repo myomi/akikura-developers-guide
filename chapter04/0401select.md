@@ -333,3 +333,17 @@ from trucking_companies
 #### 解説
 - count関数でレコード件数を取得
 
+### 0019. min/max
+- （お客さん）「最も高い単価レートが知りたい」
+
+#### 回答
+```sql
+select
+  max(unit_rate)
+from owners;
+;
+```
+
+#### 解説
+- max, minで最大値・最小値
+
