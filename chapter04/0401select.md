@@ -259,5 +259,22 @@ where name like '%住%'
 - 「または」の検索はOR
 
 
+### 0015. BETWEEN検索
+- （お客さん）「2016年1月に契約した荷主を知りたい」
+
+#### 回答
+```sql
+select
+  *
+from owners
+where name between to_date('2016-01-01', 'YYYY-MM-DD')
+               and to_date('2016-01-31', 'YYYY-MM-DD')
+;
+```
+
+#### 解説
+- 「または」の検索はOR
+
+
 
 
