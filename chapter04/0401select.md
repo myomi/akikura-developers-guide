@@ -416,18 +416,24 @@ inner join owners
   on orders.owner_id = owners.id
 inner join size
   on order_detail.size_id = size.id
+;
 ```
-- （お客さん）「オーダーと結合してくれよ」
-
+- （お客さん）「なんか列が多くて見難いな。各テーブルのversionは表示しなくていいや。後オーダーと明細のnoteも。それから、荷主とサイズは名前以外の情報は出さないでくれ」
+- （あなた）「(select句書かないとな。テーブル名が長いのでasで別名つけるか」
 
 #### 回答
 ```sql
 select
-  orders.*,
-  owners.name as 荷主名
-from orders
-inner join owners
-  on orders.owner_id = owners.id
+  o.id,
+  o.date,
+  ow.name as 荷主名,
+from orders as o
+inner join order_detail as od
+  on o.id = od.order_id
+inner join owners as ow
+  on o.owner_id = ow.id
+inner join size as s
+  on od.size_id = s.id
 ;
 ```
 
