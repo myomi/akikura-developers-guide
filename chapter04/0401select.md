@@ -325,10 +325,11 @@ where length(name) >= 5
 #### 回答
 ```sql
 select
-  count(*),
+  count(*)
 from trucking_companies
 ;
 ```
 
 #### 解説
-- 関数はselect句にも使える
+- count関数でレコード件数を取得
+
