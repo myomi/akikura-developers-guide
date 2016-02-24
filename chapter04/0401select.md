@@ -259,7 +259,7 @@ where name like '%住%'
 - 「または」の検索はOR
 
 
-### 0015. BETWEEN検索
+### 0015. from-to検索
 - （お客さん）「2016年1月に契約した荷主を知りたい」
 
 #### 回答
@@ -273,7 +273,8 @@ where name between to_date('2016-01-01', 'YYYY-MM-DD')
 ```
 
 #### 解説
-- 「または」の検索はOR
+- from-to検索はbetween [from] and [to]
+- fromとtoに指定した値は「含まれる」。from以上to以下なので注意。
 
 
 
