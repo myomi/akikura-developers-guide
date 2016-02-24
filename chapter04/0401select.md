@@ -222,6 +222,23 @@ where cancellation_date is null
 - NULLかどうかを判定するのは、IS NULL。
 - NULLでないものはIS NOT NULL。
 
+## 複数の検索条件
+### 0013. AND検索
+- （お客さん）「『住吉酒造』っていう荷主さんのデータが見たいんだけど」
+
+#### 回答
+```sql
+select
+  *
+from owners
+where name = '住吉酒造'
+;
+```
+
+#### 解説
+検索条件をつけたい時はwhere句で。
+
+
 
 
 
