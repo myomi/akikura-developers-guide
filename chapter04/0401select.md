@@ -429,8 +429,8 @@ select
   ow.name as 荷主名,
   o.departure_post_code as 発地郵便番号,
   o.departure_address1 as 発地住所1,
-  o.departure_address2,
-  o.departure_address3,
+  o.departure_address2 as 発地住所2,
+  o.departure_address3 as ,
   
 from orders as o
 inner join order_detail as od
