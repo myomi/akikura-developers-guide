@@ -414,6 +414,8 @@ inner join order_detail
   on orders.id = order_detail.order_id
 inner join owners
   on orders.owner_id = owners.id
+inner join size
+  on order_detail.size_id = size.id
 ```
 - （お客さん）「オーダーと結合してくれよ」
 
