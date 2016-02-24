@@ -403,14 +403,17 @@ inner join order_detail
   on orders.id = order_detail.order_id
 ;
 ```
-- （お客さん）「オーダーと結合してくれよ」
+- （お客さん）「さっきも言っただろマスタはIDじゃなくて名称を出して欲しいんだ。荷主と明細のサイズな」
+- （あなた）「御意」
 
 ```
 select
   *
-from owners
-inner join orders
-  on owners.id = orders.order_id
+from orders
+inner join order_detail
+  on orders.id = order_detail.order_id
+inner join owners
+  on orders.owner_id = owners.id
 ```
 - （お客さん）「オーダーと結合してくれよ」
 
