@@ -178,7 +178,7 @@ where name like '%酒%'
 select
   *
 from owners
-where name like '%酒%'
+where unit_rate <= 1
 ;
 ```
 
