@@ -398,7 +398,9 @@ inner join owners
 ```
 select
   *
-from owners
+from orders
+inner join orders_detail
+  on orders.id = orders_detail.order_id
 ;
 ```
 - （お客さん）「オーダーと結合してくれよ」
