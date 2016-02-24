@@ -276,6 +276,38 @@ where name between to_date('2016-01-01', 'YYYY-MM-DD')
 - from-to検索はbetween [from] and [to]
 - fromとtoに指定した値は「含まれる」。from以上to以下なので注意。
 
+## 関数
+### 0016. 文字列の長さ
+- （お客さん）「名前が５文字以上の荷主教えて」
+- （あなた）「そろそろ仕事しろよ」
 
+#### 回答
+```sql
+select
+  *
+from owners
+where length(name) >= 5
+;
+```
+
+#### 解説
+- 長さを数えるのはlength関数
+
+### 0017. select句で関数
+- （お客さん）「さっきの検索結果、文字数も表示してよ」
+- （あなた）「自分で数えろよ」
+
+#### 回答
+```sql
+select
+  *,
+  length(name) as 名前の
+from owners
+where length(name) >= 5
+;
+```
+
+#### 解説
+- 長さを数えるのはlength関数
 
 
