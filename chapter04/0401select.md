@@ -161,7 +161,7 @@ where name like '住%'
 select
   *
 from owners
-where name like '住%'
+where name like '%酒%'
 ;
 ```
 
