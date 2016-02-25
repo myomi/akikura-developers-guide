@@ -421,7 +421,6 @@ inner join size
 - （お客さん）「なんか列が多くて見難いな。各テーブルのversionは表示しなくていいや。後オーダーと明細のnoteも。それから、荷主とサイズは名前以外の情報は出さないでくれ」
 - （あなた）「(select句書かないとな。テーブル名が長いのでasで別名つけるか)」
 
-#### 回答
 ```sql
 select
   o.id as オーダーID,
@@ -431,10 +430,13 @@ select
   o.departure_address1 as 発地住所1,
   o.departure_address2 as 発地住所2,
   o.departure_address3 as 発地住所3,
-  o.arrival_post_code as 発地郵便番号,
-  o.arrival_address1 as 発地住所1,
-  o.arrival_address2 as 発地住所2,
-  o.arrival_address3 as 発地住所3, 
+  o.arrival_post_code as 着地郵便番号,
+  o.arrival_address1 as 着地住所1,
+  o.arrival_address2 as 着地住所2,
+  o.arrival_address3 as 着地住所3,
+  od.item_name as 荷物名,
+  od.weight as 重量,
+  s.name as サイズ
 from orders as o
 inner join order_detail as od
   on o.id = od.order_id
