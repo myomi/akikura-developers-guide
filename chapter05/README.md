@@ -85,3 +85,7 @@ Started AkikuraApplication in 22.499 seconds (JVM running for 23.275)
 
 ```
 
+- Google Chromeを起動
+- http://localhost:8080/tutorial/課題番号.html にアクセス
+
+（例：課題番号1001なら、http://localhost:8080/tutorial/1001.html）
