@@ -67,7 +67,7 @@ insert into orders values (
 
 #### 回答
 ```sql
--- 実行したら
+-- 実行したらどうなるでしょう
 insert into owners(
   id,
   name, 
@@ -76,9 +76,9 @@ insert into owners(
   cancellation_date, 
   version
 ) values (
-  '夙川家具', 
-  1.95, 
-  to_date('2016-03-01', 'YYYY-MM-DD', 
+  '西宮ビール', 
+  2.00, 
+  to_date('2016-03-10', 'YYYY-MM-DD', 
   null,
   0
 );
