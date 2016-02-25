@@ -24,9 +24,9 @@ set
 update owners 
 set 
   unit_rate = unit_rate * 2,
-  cancellation_date = current_date()
+  cancellation_date = current_date
 ;
 ```
 
 #### 解説
-- update文で更新
+- 複数項目
