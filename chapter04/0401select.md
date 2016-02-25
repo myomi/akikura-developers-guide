@@ -14,7 +14,7 @@ from owners
 
 #### 解説
 select文の基本構文
-```
+```sql
 select
   [カラム...]
 from [テーブル名]
@@ -367,7 +367,7 @@ from owners
 ### 00021. 内部結合
 - （お客さん）「オーダーを一覧で見せてくれ」
 - （あなた）「ほい」
-```
+```sql
 select
   *
 from orders
@@ -395,7 +395,7 @@ inner join owners
 ### 00022. 外部結合
 - （お客さん）「オーダーとその明細を一覧で見たいんだけど。」
 - （あなた）「ほい」
-```
+```sql
 select
   *
 from orders
@@ -406,7 +406,7 @@ inner join order_detail
 - （お客さん）「さっきも言っただろマスタはIDじゃなくて名称を出して欲しいんだ。荷主と明細のサイズな」
 - （あなた）「御意」
 
-```
+```sql
 select
   *
 from orders
