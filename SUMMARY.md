@@ -29,4 +29,7 @@
    * [3-5. データベースに接続する](chapter03/0305db.md)
 * [4.研修 リレーショナルデータベース基礎](chapter04/README.md)
    * [4-1. read - SELECT文](chapter04/0401select.md)
+   * [4-2. write - INSERT文](chapter04/0402insert.md)
+   * [4-3. write - UPDATE文](chapter04/0403update.md)
+   * [4-4. write - DELETE文](chapter04/0404delete.md)
 
