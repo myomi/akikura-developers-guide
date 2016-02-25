@@ -447,7 +447,39 @@ inner join size as s
 ;
 ```
 
+- （お客さん）「あれ、オーダーID2の住吉酒造さんから、2016/2/21に注文あったはずなんだけど、表示されてないぞ」
+- （あなた）「そのオーダーは明細データがないので、joinの時に漏れてるみたいですね」
+- （お客さん）「明細のないオーダーはおかしいな。そのデータも含めて一覧で見れるようにしてよ」
+
+#### 回答
+```sql
+select
+  o.id as オーダーID,
+  o.date as オーダー日,
+  ow.name as 荷主名,
+  o.departure_postal_code as 発地郵便番号,
+  o.departure_address1 as 発地住所1,
+  o.departure_address2 as 発地住所2,
+  o.departure_address3 as 発地住所3,
+  o.arrival_postal_code as 着地郵便番号,
+  o.arrival_address1 as 着地住所1,
+  o.arrival_address2 as 着地住所2,
+  o.arrival_address3 as 着地住所3,
+  od.item_name as 荷物名,
+  od.weight as 重量,
+  s.name as サイズ
+from orders as o
+left outer join order_detail as od
+  on o.id = od.order_id
+inner join owners as ow
+  on o.owner_id = ow.id
+left outer join size as s
+  on od.size_id = s.id
+;
+```
+
 #### 解説
-- 二つのテーブルを紐付けるにはjoinを使う
-- 紐付けるキーをonで指定
+- join先のデータが存在しない時もfrom句のテーブルのレコードを残すには、inner join -> left outer join に変更する
+- テーブルにもasが使える
+- こんな感じで現場で作るSQLはどんどん長くなっていく。気がつけば100行超えてたとかはザラ。
 
