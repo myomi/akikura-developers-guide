@@ -34,3 +34,8 @@
    * [4-4. write - DELETE文](chapter04/0404delete.md)
 * [5.研修 HTML基礎](chapter05/README.md)
    * [5-1. 1001 最小限のHTML](chapter05/0501.md)
+   * [5-2. 1002 最小限のHTML](chapter05/0502.md)
+   * [5-3. 1003 最小限のHTML](chapter05/0503.md)
+   * [5-4. 1004 最小限のHTML](chapter05/0504.md)
+   * [5-5. 1005 最小限のHTML](chapter05/0505.md)
+   * [5-6. 1006 最小限のHTML](chapter05/0506.md)
