@@ -37,5 +37,5 @@
    * [5-2. 1002 テキスト](chapter05/0502.md)
    * [5-3. 1003 ハイパーリンク](chapter05/0503.md)
    * [5-4. 1004 WEBアプリのための部品](chapter05/0504.md)
-   * [5-5. 1005 最小限のHTML](chapter05/0505.md)
-   * [5-6. 1006 最小限のHTML](chapter05/0506.md)
+   * [5-5. 1005 CSSをちょっとだけ](chapter05/0505.md)
+   * [5-6. 1006 JavaScriptを](chapter05/0506.md)
