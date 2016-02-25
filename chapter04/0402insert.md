@@ -6,15 +6,25 @@
 
 #### データ登録依頼書
 
-| name | unit_rate | contract_date | cancellation_date | | -- | -- | -- | -- |
+| name | unit_rate | contract_date | cancellation_date |
+| -- | -- | -- | -- |
 | 夙川家具 | 1.95 | 2016-03-01 | 未設定 |
 
-idは自動採番、versionは0で設定すること。
+※idは自動採番、versionは0で設定すること。
 
 #### 回答
 ```sql
-select
-  *
-from owners
-;
+insert into owners(
+  name, 
+  unit_rate, 
+  contract_date, 
+  cancellation_date, 
+  version
+) values (
+  '夙川家具', 
+  1.95, 
+  to_date('2016-03-01', 'YYYY-MM-DD', 
+  null,
+  0
+);
 ```
