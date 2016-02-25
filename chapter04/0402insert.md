@@ -46,5 +46,35 @@ insert into orders values (
 ```
 - 自動採番とは「データベースに自動的に一意な値をつけてもらう」こと。現場では『このカラムは自動採番で〜』とか『オートインクリメントで〜』とかいう会話が飛び交う
 - 一意 ＝ 他と値が被らないという意
-- orders.id カラムはbigserial という型で定義されている。これはPostgreSQLの「特に指定がなければ自動採番しまっせ」型
+- orders.id カラムはbigserial という型で定義されている。これはPostgreSQLの「特に指定がなければ自動採番しまっせ」型（テーブル定義書を参照）
 - versionカラムは業務的には使わないカラム。システムの中で「楽観的排他制御」のために使う。詳しくは実践編で説明する。
+
+
+### 1002. IDの重複
+- （お客さん）「新しい荷主が増えるので登録してくれないか」
+- （あなた）「そろそろ荷主登録画面作りましょうよ」
+
+#### データ登録依頼書
+
+| name | unit_rate | contract_date | cancellation_date |
+| -- | -- | -- | -- |
+| 夙川家具 | 1.95 | 2016-03-01 | 未設定 |
+
+※idは自動採番、versionは0で設定すること。
+
+#### 回答
+```sql
+insert into owners(
+  name, 
+  unit_rate, 
+  contract_date, 
+  cancellation_date, 
+  version
+) values (
+  '夙川家具', 
+  1.95, 
+  to_date('2016-03-01', 'YYYY-MM-DD', 
+  null,
+  0
+);
+```
