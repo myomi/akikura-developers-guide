@@ -85,3 +85,8 @@ insert into owners(
   0
 );
 ```
+#### 解説
+- 実行すると「duplicate key value violates unique constraint "owners_pkey"」というエラーが出る。
+- これは「キーが重複しているので登録できねえよ」というエラー
+- owners.idには「主キー制約」が設定してある。
+- 主キー制約は「一意な値を登録しなければならない」というDBの設定。現場では「このテーブルの主キーは〜」とか「プライマリキーは〜」などの会話がなされる
