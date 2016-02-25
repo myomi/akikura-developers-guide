@@ -33,3 +33,4 @@
    * [4-3. write - UPDATE文](chapter04/0403update.md)
    * [4-4. write - DELETE文](chapter04/0404delete.md)
 * [5.研修 HTML基礎](chapter05/README.md)
+   * [5-1. 1001 最小限のHTML]
