@@ -23,7 +23,7 @@ insert into owners(
 ) values (
   '夙川家具', 
   1.95, 
-  to_date('2016-03-01', 'YYYY-MM-DD', 
+  to_date('2016-03-01', 'YYYY-MM-DD'), 
   null,
   0
 );
@@ -35,8 +35,9 @@ insert into owners(
 - そうでなくても保守運用の観点から、カラム名は書くべき
 
 ```sql
+-- これは実行しなくていいよ
 insert into orders values (
-  15, -- IDも設定しないといけない
+  1000, -- IDも設定しないといけない
   '夙川家具', 
   1.95, 
   to_date('2016-03-01', 'YYYY-MM-DD', 
@@ -76,9 +77,10 @@ insert into owners(
   cancellation_date, 
   version
 ) values (
+  1,
   '西宮ビール', 
   2.00, 
-  to_date('2016-03-10', 'YYYY-MM-DD', 
+  to_date('2016-03-10', 'YYYY-MM-DD'), 
   null,
   0
 );
