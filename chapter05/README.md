@@ -78,8 +78,10 @@ HTMLにも仕様書があり、仕様を満たすためのルールがある。
 - Springパースペクティブを開きます。
 - akikura_xxx プロジェクトを右クリック->Run As->Spring Boot Appを選択
 - Consoleビューに以下のような起動ログが出ることを確認する
+
 ```
-2016-02-22 22:55:07.072  INFO 4058 --- [  restartedMain] com.akikura.AkikuraApplication           : Started AkikuraApplication in 22.499 seconds (JVM running for 23.275)
+2016-02-22 22:55:07.072  INFO 4058 --- [  restartedMain] com.akikura.AkikuraApplication           : 
+Started AkikuraApplication in 22.499 seconds (JVM running for 23.275)
 
 ```
 
