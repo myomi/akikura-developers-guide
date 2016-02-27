@@ -73,17 +73,7 @@ h1 {
 - 回答を見ずに、考えてHTMLを書こうとしてはいけない。回答を写経して、「こんなものなのか」と思ってもらうだけでOK。
 
 ### 課題の実行方法
-- STSを起動します。
-- Springパースペクティブを開きます。
-- akikura_xxx プロジェクトを右クリック->Run As->Spring Boot Appを選択
-- Consoleビューに以下のような起動ログが出ることを確認する
-
-```
-2016-02-22 22:55:07.072  INFO 4058 --- [  restartedMain] com.akikura.AkikuraApplication           : 
-Started AkikuraApplication in 22.499 seconds (JVM running for 23.275)
-
-```
-
+- STSからakikuraを起動する
 - Google Chromeを起動
 - http://localhost:8080/tutorial/課題番号.html にアクセス
 
