@@ -35,7 +35,7 @@
 * [5.研修 HTML・CSS・JavaScript基礎](chapter05/README.md)
    * [5-1. 最小限のHTML](chapter05/0501.md)
    * [5-2. テキスト](chapter05/0502.md)
-   * [5-3. ハイパーリンク](chapter05/0503.md)
+   * [5-3. まじハイパー！](chapter05/0503.md)
    * [5-4. 表・リスト](chapter05/0504.md)
    * [5-5. WEBアプリ用の要素](chapter05/0505.md)
    * [5-6. CSS](chapter05/0506.md)
