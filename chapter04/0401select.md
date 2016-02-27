@@ -270,7 +270,7 @@ where name like '%住%'
 select
   *
 from owners
-where name between to_date('2016-01-01', 'YYYY-MM-DD')
+where contract_date between to_date('2016-01-01', 'YYYY-MM-DD')
                and to_date('2016-01-31', 'YYYY-MM-DD')
 ;
 ```
