@@ -32,7 +32,7 @@
    * [4-2. write - INSERT文](chapter04/0402insert.md)
    * [4-3. write - UPDATE文](chapter04/0403update.md)
    * [4-4. write - DELETE文](chapter04/0404delete.md)
-* [5.研修 HTML基礎](chapter05/README.md)
+* [5.研修 HTML・CSS・JavaScript基礎](chapter05/README.md)
    * [5-1. 1001 最小限のHTML](chapter05/0501.md)
    * [5-2. 1002 テキスト](chapter05/0502.md)
    * [5-3. 1003 ハイパーリンク](chapter05/0503.md)
