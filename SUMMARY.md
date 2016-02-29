@@ -44,4 +44,5 @@
    * [6-1. Webサイトのしくみ](chapter06/0601staticweb.md)
    * [6-2. Webアプリのしくみ](chapter06/0602webapp.md)
    * [6-3. サーブレット](chapter06/0603servlet.md)  
-   * [6-4. Web MVC](chapter06/0602webapp.md)  
+   * [6-4. Web MVC](chapter06/0602webapp.md)
+* [7.研修 サーブレット](chapter07/README.md)
