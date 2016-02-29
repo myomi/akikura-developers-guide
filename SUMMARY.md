@@ -41,4 +41,5 @@
    * [5-6. CSS](chapter05/0506.md)
    * [5-7. JavaScript](chapter05/0507.md)
 * [6.研修 HTTP基礎](chapter06/README.md)
-   * [6-1. WEBサイトを見るしくみ](chapter06/0601staticweb.md)
+   * [6-1. WEBサイトのしくみ](chapter06/0601staticweb.md)
+   * [6-1. WEBアプリのしくみ](chapter06/0601staticweb.md)
