@@ -54,6 +54,6 @@ Javaで作ったwebアプリを載せることができるAPサーバにはい�
 | Apache Tomcat | オープンソース。予算の少ないプロジェクトでよく見る |
 | JBoss | Red Hat製。これもよく見る |
 | Wildfly | JBossのオープンソース版 |
-| WebLogic | Oracle製。みょうちんは触ったことない。誰か経験者いる？ |
+| WebLogic | Oracle製（だったっけ？）。みょうちんは触ったことない。誰か経験者いる？ |
 | GlassFish | Oracle管理のオープンソース。NetBeansダウンロードしたら、一緒についてくるやつ |
 
