@@ -84,3 +84,6 @@ JavaのAPサーバには「JavaEE（Java Enterprise Edition）」という仕様
 
 この後答えを書こうかと思ったのですが、やめます。
 誰かへの問題にしよう。もう眠いしな！
+
+
+
