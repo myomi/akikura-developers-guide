@@ -43,4 +43,5 @@
 * [6.研修 HTTP基礎](chapter06/README.md)
    * [6-1. Webサイトのしくみ](chapter06/0601staticweb.md)
    * [6-2. Webアプリのしくみ](chapter06/0602webapp.md)
+   * [6-3. HTTP](chapter06/0604http.md)
 * [7.研修 サーブレット](chapter07/README.md)
