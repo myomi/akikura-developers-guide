@@ -44,4 +44,5 @@
    * [6-1. Webサイトのしくみ](chapter06/0601staticweb.md)
    * [6-2. Webアプリのしくみ](chapter06/0602webapp.md)
    * [6-3. HTTP](chapter06/0604http.md)
+   * [6-4. サーブレット](chapter06/0605servlet.md)
 * [7.研修 サーブレット](chapter07/README.md)
