@@ -46,3 +46,4 @@
    * [6-3. HTTP](chapter06/0604http.md)
    * [6-4. サーブレット](chapter06/0605servlet.md)
 * [7.研修 サーブレット](chapter07/README.md)
+* [8.実践 商蔵](chapter08/README.md)
