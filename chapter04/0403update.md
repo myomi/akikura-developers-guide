@@ -46,7 +46,7 @@ set
 update owners 
 set 
   unit_rate = 10
-where owner_id = 3;
+where id = 3;
 ;
 ```
 
