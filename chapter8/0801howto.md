@@ -52,3 +52,5 @@ public class OrderEntryController {
 - @RequestMapping メソッドは以下の規約を守ること
   - 戻り値はString（表示画面を表すパス）
   - 引数は以下を指定する
+
+import org.springframework.ui.Model;
