@@ -48,4 +48,3 @@
 * [7.研修 サーブレット](chapter07/README.md)
 * [8.実践 商蔵](chapter08/README.md)
    * [8-1. 新規画面作成手順](chapter8/0801howto.md)
-* [Appendix A.さらに学ぶために](appendix/learnmore.md)
