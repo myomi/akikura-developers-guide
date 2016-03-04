@@ -45,5 +45,6 @@ public class OrderEntryController {
 	}
 }
 ```
-
-- 画面用
+##### 規約
+- 画面用のコントローラには、@Controller アノテーションをクラスに付与する
+- 
