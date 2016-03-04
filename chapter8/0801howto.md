@@ -18,7 +18,7 @@ misc/skeleton フォルダに新規画面作成用の雛形が用意されてい
 
 | 雛形ファイル名 | 説明 |
 | -- | -- |
-| header.html | 単票形式の画面用雛形 |
+| unit.html | 単票形式の画面用雛形 |
 | list.html | 一覧形式の画面用雛形 |
 | header-detail.html | ヘッダ・ディテール形式の画面用雛形 |
 
@@ -26,6 +26,22 @@ misc/skeleton フォルダに新規画面作成用の雛形が用意されてい
 続いてコントローラを作成します。ただし、この時点で作るのは必要最小限です。
 つまり、「特定のURLにアクセスすれば、先ほど用意したビューが表示される」処理のみを作ります。
 
-- 詳細設計書の指示に従い、コントローラクラスを作成します。
+まず、詳細設計書の指示に従い、コントローラクラスを作成します。
 
+##### 実装例
+```java
+package com.akikura.web.order;
 
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+@Controller
+@RequestMapping("/orders")
+public class OrderEntryController {
+	@RequestMapping(path="/entry", method=RequestMethod.GET)
+	public String entry() {
+		return "order/order-entry";
+	}
+}
+```
