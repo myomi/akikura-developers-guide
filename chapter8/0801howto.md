@@ -49,4 +49,6 @@ public class OrderEntryController {
 - 画面用のコントローラクラスには、@Controller アノテーションを付与する
 - 画面用のコントローラクラスには、@RequestMapping アノテーションを付与する
   - pathには、サブシステムの親パスを指定する（例：荷主登録画面 /owners/entry -> 荷主サブシステムを表す /owners）
-- @RequestMapping メソッドの method属性は省略しないこと(GET, POST)
+- @RequestMapping メソッドは以下の規約を守ること
+  - 戻り値はString（表示画面を表すパス）
+  - 引数は以下を指定する
