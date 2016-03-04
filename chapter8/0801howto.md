@@ -46,5 +46,7 @@ public class OrderEntryController {
 }
 ```
 ##### 規約
-- 画面用のコントローラには、@Controller アノテーションをクラスに付与する
-- 
+- 画面用のコントローラクラスには、@Controller アノテーションを付与する
+- 画面用のコントローラクラスには、@RequestMapping アノテーションを付与する
+  - pathには、サブシステムの親パスを指定する（例：荷主登録画面 /owners/entry -> 荷主サブシステムを表す /owners）
+- @RequestMapping メソッドの method属性は省略しないこと(GET, POST)
