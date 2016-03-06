@@ -59,6 +59,6 @@ public class OrderEntryController {
 この時点で、akikuraを起動し、@RequestMappingメソッドに指定したURLにアクセスして、コピーしたビュー雛形の画面が表示されることを確認します。
 
 #### 3. デザインイメージの適用
-
+src/main/resources/static/sample の中に、デザイン案が置いてあるので、
 
 
