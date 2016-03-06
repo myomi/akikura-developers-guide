@@ -61,6 +61,8 @@ public class OrderEntryController {
 #### 3. デザインイメージの適用
 src/main/resources/static/sample の中にデザイン案が置いてあります。
 例えば、オーダー登録画面なら、order-entry01.html です。
+設計担当者に適用するデザイン案を確認して、1.で配置したビューに内容をコピーしてください。
+
 
 
 
