@@ -80,5 +80,8 @@ src/main/resources/static/sample の中にデザイン案が置いてありま�
 以下の画面実装を行う。画面のコンポーネント１つにつき、以下の作業を繰り返し、画面動作確認を行うこと。
 
 - Thymeleafの属性を追加する
+  - ak:tooltipは、akikuraプロジェクト独自の属性。Validationありの入力項目の場合は、必ず設定すること。
 - Formクラスにフィールド・getter・setterを定義する
 - ブラウザで表示確認し、エラーが出ないことを確認する。
+
+
