@@ -51,6 +51,11 @@ public class OrderEntryController {
   - pathには、サブシステムの親パスを指定する（例：荷主登録画面 /owners/entry -> 荷主サブシステムを表す /owners）
 - @RequestMapping メソッドは以下の規約を守ること
   - 戻り値はString（表示画面を表すパス）
-  - 引数は以下を指定する
+  - 引数は以下を指定可能（他にも指定可能だが、原則以下のみを使用する。）
+    - 画面入力/表示項目用フォームオブジェクト
+    - Validationありのリクエストの場合、BindingResult
+    - リダイレクトありで、リダイレクト先に情報転送が必要な場合、RedirectAttributes
 
-import org.springframework.ui.Model;
+
+
+
