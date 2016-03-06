@@ -56,6 +56,6 @@ public class OrderEntryController {
     - Validationありのリクエストの場合、BindingResult
     - リダイレクトありで、リダイレクト先に情報転送が必要な場合、RedirectAttributes
 
-この時点で、
+この時点で、akikuraを起動し、@RequestMappingメソッドに指定したURLにアクセスして、コピーしたビュー雛形の画面が表示されることを確認します。
 
 
