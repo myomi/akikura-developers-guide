@@ -81,4 +81,4 @@ src/main/resources/static/sample の中にデザイン案が置いてありま�
 
 - Thymeleafの属性を追加する
 - Formクラスにフィールド・getter・setterを定義する
-- 
+- ブラウザで表示確認し、エラーが出ないことを確認する。
