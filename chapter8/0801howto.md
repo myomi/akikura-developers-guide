@@ -64,6 +64,17 @@ src/main/resources/static/sample の中にデザイン案が置いてありま�
 設計担当者に適用するデザイン案を確認して、1.で配置したビューに内容をコピーしてください。
 
 #### 規約
-- コピーするのは、articleタグの内容のみ。他の箇所はビュー用共通モジュール（templates.common)で定義済みのため
+- コピーするのは、articleタグの内容のみ。他の箇所はビュー用共通モジュール（templates.common)で定義済みのため。コンテンツ[START]/[END]のコメントの間を書き換える。
+```html
+<!--/* コンテンツ [START] */-->
+<article class="container">
+  <form class="form-horizontal" method="POST" id="submitForm"> 
+    <h2 class="PageTitle">(ページタイトル)</h2>
+    <fieldset>
+    </fieldset>
+  </form>
+</article>
+<!--/* コンテンツ [END] */-->
+```
 
 
