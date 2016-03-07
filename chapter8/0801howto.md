@@ -99,3 +99,4 @@ public List<Operation> operations() {
 ```
 
 これは、Spring MVC標準の機能ではなく、akikuraプロジェクト独自の仕様である点に注意。
+
