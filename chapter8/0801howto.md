@@ -81,6 +81,7 @@ src/main/resources/static/sample の中にデザイン案が置いてありま�
 
 - Thymeleafの属性を追加する
   - ak:tooltipは、akikuraプロジェクト独自の属性。Validationありの入力項目の場合は、必ず設定すること。
+- 画面の入力項目に対応するFormクラスを定義する。
 - Formクラスにフィールド・getter・setterを定義する
 - ラベル等のメッセージ文言はsrc/main/resources/i18n/messages_ja.propertiesに定義すること
   - ファイルが文字化けする場合はエンコーディングがUTF-8になっているか確認。なっていなければ変更する
@@ -122,4 +123,4 @@ JavaScriptで実装する。
 
 #### 7. バリデーション
 - Formクラスに設計書に従って適切なAnnotationをつける
-- 
+- @RequestMapping メソッドの Formオブジェクト引数に@Validアノテーションをつける
