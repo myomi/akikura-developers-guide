@@ -87,4 +87,5 @@ src/main/resources/static/sample の中にデザイン案が置いてありま�
   - 多言語対応可能なよう、messages.propertiesも用意しているが、実装するのはmessages_ja.propertiesのみで構わない
 - ブラウザで表示確認し、エラーが出ないことを確認する。
 
+#### 5. ボタンアクションの実装
 
