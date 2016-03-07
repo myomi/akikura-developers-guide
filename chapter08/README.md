@@ -35,7 +35,6 @@ akikuraプロジェクトでは以下のフレームワーク・ライブラリ�
 | HTMLテンプレート | Thymeleaf2.1 | http://www.thymeleaf.org/doc/tutorials/2.1/usingthymeleaf_ja.html |
 | | (ThymeleafのSpring向け機能拡張) | http://www.thymeleaf.org/doc/tutorials/2.1/thymeleafspring.html |
 
-
-
-
-
+## 開発時の注意
+- ブログやQAサイト等での調査は構いませんが、質問・報告時は必ず出典(URL等）を明記すること
+- 
