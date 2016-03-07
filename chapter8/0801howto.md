@@ -97,3 +97,5 @@ public List<Operation> operations() {
 	return Operation.operations(Operation.BACK, Operation.EDIT, Operation.DELETE);
 }
 ```
+
+これは、Spring MVC標準の機能ではなく、akikuraプロジェクト独自の仕様である点に注意。
