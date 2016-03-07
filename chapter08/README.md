@@ -33,7 +33,7 @@ akikuraプロジェクトでは以下のフレームワーク・ライブラリ�
 | DIコンテナ・AOP | Spring Framework4 | http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/ |
 | DBアクセス | Spring Data JPA | http://docs.spring.io/spring-data/jpa/docs/current/reference/html/ |
 | HTMLテンプレート | Thymeleaf2.1 | http://www.thymeleaf.org/doc/tutorials/2.1/usingthymeleaf_ja.html |
-| | | http://www.thymeleaf.org/doc/tutorials/2.1/thymeleafspring.html |
+| | (ThymeleafのSpring向け機能拡張) | http://www.thymeleaf.org/doc/tutorials/2.1/thymeleafspring.html |
 
 
 
