@@ -104,3 +104,7 @@ public List<Operation> operations() {
 JavaScriptで実装する。
 - src/main/resources/static/js に画面ごとのjsファイルを作成する。
 - htmlファイルにscript要素を追加し、作成したjsファイルを読み込む。
+
+##### ボタン押下時の処理（サーバサイド）
+- 対応する@RequestMappingメソッドを実装する。
+
