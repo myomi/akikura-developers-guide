@@ -24,7 +24,18 @@ akikuraプロジェクトでは以下のフレームワーク・ライブラリ�
 | 分類 | フレームワーク・ライブラリ | マニュアル |
 | -- | -- | -- |
 | CSSフレームワーク | Bootstrap3 | http://getbootstrap.com/ |
-| 0:3 | 1:3 | 2:3 |
+| JSライブラリ | jQuery2 | http://api.jquery.com/ |
+
+### バックエンド
+| 分類 | フレームワーク・ライブラリ | マニュアル |
+| -- | -- | -- |
+| 各フレームワークの統合 | Spring Boot1.3 | http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/ |
+| DIコンテナ・AOP | Spring Framework4 | http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/ |
+| DBアクセス | Spring Data JPA | http://docs.spring.io/spring-data/jpa/docs/current/reference/html/ |
+| HTMLテンプレート | Thymeleaf2.1 | http://www.thymeleaf.org/doc/tutorials/2.1/usingthymeleaf_ja.html　
+|
+| | | http://www.thymeleaf.org/doc/tutorials/2.1/thymeleafspring.html |
+
 
 
 
