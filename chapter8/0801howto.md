@@ -82,6 +82,9 @@ src/main/resources/static/sample の中にデザイン案が置いてありま�
 - Thymeleafの属性を追加する
   - ak:tooltipは、akikuraプロジェクト独自の属性。Validationありの入力項目の場合は、必ず設定すること。
 - Formクラスにフィールド・getter・setterを定義する
+- ラベル等のメッセージ文言はsrc/main/resources/i18n/messages_ja.propertiesに定義すること
+  - ファイルが文字化けする場合はエンコーディングがUTF-8になっているか確認。なっていなければ変更する
+  - 多言語対応可能なよう、messages.propertiesも用意しているが、実装するのはmessages_ja.propertiesのみで構わない
 - ブラウザで表示確認し、エラーが出ないことを確認する。
 
 
