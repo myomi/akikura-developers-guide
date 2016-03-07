@@ -102,4 +102,4 @@ public List<Operation> operations() {
 
 ##### ボタン押下時の処理(クライアントサイド）
 JavaScriptで実装する。
-- 
+- a
