@@ -88,4 +88,12 @@ src/main/resources/static/sample の中にデザイン案が置いてありま�
 - ブラウザで表示確認し、エラーが出ないことを確認する。
 
 #### 5. ボタンアクションの実装
+オペレーションボタンの設定は、Controllerクラスに以下のような@ModelAttributeメソッドを実装することで定義可能。
 
+```java
+// 実装例：「戻る」「編集」「削除」ボタンを表示する
+@ModelAttribute(Consts.MODEL_OPERATIONS_NAME)
+public List<Operation> operations() {
+	return Operation.operations(Operation.BACK, Operation.EDIT, Operation.DELETE);
+}
+```
