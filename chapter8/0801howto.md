@@ -102,4 +102,5 @@ public List<Operation> operations() {
 
 ##### ボタン押下時の処理(クライアントサイド）
 JavaScriptで実装する。
-- a
+- src/main/resources/static/js に画面ごとのjsファイルを作成する。
+- htmlファイルにscript要素を追加し、作成したjsファイルを読み込む。
