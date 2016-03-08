@@ -30,28 +30,12 @@ akikuraプロジェクトでは以下のフレームワーク・ライブラリ�
 | 分類 | フレームワーク・ライブラリ | マニュアル |
 | -- | -- | -- |
 | 各フレームワークの統合 | Spring Boot1.3 | http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/ |
-| DIコンテナ・AOP・MVC | Spring Framework4 | http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/ |
+| DIコンテナ・AOP | Spring Framework4 | http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/ |
 | DBアクセス | Spring Data JPA | http://docs.spring.io/spring-data/jpa/docs/current/reference/html/ |
 | HTMLテンプレート | Thymeleaf2.1 | http://www.thymeleaf.org/doc/tutorials/2.1/usingthymeleaf_ja.html |
 | | (ThymeleafのSpring向け機能拡張) | http://www.thymeleaf.org/doc/tutorials/2.1/thymeleafspring.html |
 
-この中でも特に重要なフレームワークがSpring Frameworkです。PureなJavaでWebアプリケーションを作る（前章のサーブレット）ことの困難さを解決するためにSpringを導入しています。
-
-実際の開発案件では、Pure Javaの上にフレームワークを１枚噛ませて開発することが通常であり、2016年時点では以下の３択でしょう。
-
-- Spring Framework
-- Java EE(6 or 7)
-- その会社独自のフレームワーク
-
-これらの中で、今回のインターンではSpring Frameworkを選択しました。
-
-さて、インターンの学習目標は「Spring Frameworkをマスターすること」ではありません（もちろんマスターしても構いませんが）。今回の学習目標は以下の３つです。
-
-1. Webアプリケーション用のFrameworkを導入することで、HTTPリクエスト->レスポンスまでの処理の流れが、コントローラ・サービス・データアクセス・ビューの４レイヤーに分割されることを学ぶ。また、それぞれのレイヤの役割を学ぶ
-2. 納期を意識する。すなわち、初見のフレームワークに対して効率的に学び、かつ成果を出す手法を学ぶ。
-3. 初見のフレームワークに対する恐怖心をなくす。就職先・アサイン先の案件がSpring Frameworkを使うとは限らない。そもそもJavaですらないかもしれない。そんな時でも、臆さずチャレンジできる、ガッキーのような~~面の皮の厚さ~~メンタルの強さを身につける。
-
 ## 開発時の注意
 - ブログやQAサイト等での調査は構いませんが、質問・報告時は必ず出典(URL等）を明記すること
-- 納期を意識する、フレームワーク・ライブラリを自主的に学ぶことは構わないし、推奨するが、自己調査では手にあまると感じたら、遠慮なく質問する。
-- 荷主登録画面が機能的によく似ているので、ソースコードを参考にすること。ソースコードの場所が分からなければ、質問すること。
+- 納期を意識する、自己調査では手にあまると感じたら、遠慮なく質問する
+- 荷主登録画面が機能的によく似ているので、参考にすること。
