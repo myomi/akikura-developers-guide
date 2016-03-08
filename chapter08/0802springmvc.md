@@ -43,3 +43,5 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response)
 	} // ...地獄！
 }
 ```
+
+。。。これは嫌な予感がします。大規模なWebアプリケーションになると、大量のURLパスに対応する必要があるため、あっという間にコードが肥大化しそうです。
