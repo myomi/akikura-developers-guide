@@ -19,9 +19,6 @@
 ### サブパスへの対応
 １つのWebアプリケーションで利用可能なURLのパスは１つではないはずです。例えば、akikuraアプリケーションのベースパスが/akikuraだったとして、以下のような設計が行われたとします。
 
-- GET /akikura/orders ・・・オーダー一覧画面を表示
-- GET /akikura/orders/1 ・・・order_id 1のオーダー詳細画面を表示
-
 | HTTPメソッド | URLパス | 動作仕様 |
 | -- | -- | -- |
 | GET | /akikura/orders | オーダー一覧画面を表示する |
@@ -29,3 +26,7 @@
 | GET | /akikura/orders/entry | オーダー登録画面を表示する |
 | POST | /akikura/orders | オーダー登録を実行する |
 
+皆さんはどう実装しますか？
+
+- あなたはまず、/akikura に対応するサーブレット、AkikuraServletを作ります。
+- 
