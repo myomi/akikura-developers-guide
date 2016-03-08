@@ -51,3 +51,26 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response)
 - **(リスク１）サーブレットメソッドの肥大化**
 - **(リスク２）機能改修時のリグレッション（デグレード）**
 
+### HTMLの出力
+先ほどのif文の中に、HTMLを生成する処理を書くことを考えると、さらにコードが肥大化しそうです。
+
+```java
+protected void doGet(HttpServletRequest request, HttpServletResponse response) 
+  throws ServletException, IOException {
+  
+	String path = request.getRequestURI();
+	if ("/akikura/orders".equals(path)) {
+        // オーダー一覧
+        PrintWriter out = response.getWriter();
+		out.println("<html>");
+        // 以下、延々と続く。。。
+	} else if ("/akikura/orders/entry".equals(path)) {
+		// オーダー登録
+        // ここは別のHTML生成処理
+	} // ...地獄！
+}
+```
+
+また、これまで学んできたように、JavaとHTMLは全く違う言語です。Javaのコンテキストの中で、HTMLコードを**Java文字列で記述する**など、入力ミスする予感しかしません。Java文字列内の記述は、IDEのコードアシストが効きませんからね。。。
+
+- **（リスク３）Java内に別の言語が埋め込まれる
