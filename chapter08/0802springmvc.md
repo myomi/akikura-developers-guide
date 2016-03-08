@@ -29,4 +29,17 @@
 皆さんはどう実装しますか？
 
 - あなたはまず、/akikura に対応するサーブレット、AkikuraServletを作ります。
-- 
+- AkikuraServletのdoPost, doGetメソッドの中で、リクエストされたパスをチェックし、処理を振り分けます。こんな感じで。。。
+
+```java
+protected void doGet(HttpServletRequest request, HttpServletResponse response) 
+  throws ServletException, IOException {
+  
+	String path = request.getRequestURI();
+	if ("/akikura/orders".equals(path)) {
+        // オーダー一覧
+	} else if ("/akikura/orders/entry".equals(path)) {
+		// オーダー登録
+	} // ...地獄！
+}
+```
