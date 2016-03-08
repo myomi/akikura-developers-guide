@@ -35,7 +35,15 @@ akikuraプロジェクトでは以下のフレームワーク・ライブラリ�
 | HTMLテンプレート | Thymeleaf2.1 | http://www.thymeleaf.org/doc/tutorials/2.1/usingthymeleaf_ja.html |
 | | (ThymeleafのSpring向け機能拡張) | http://www.thymeleaf.org/doc/tutorials/2.1/thymeleafspring.html |
 
-Spring MVC
+この中でも特に重要なフレームワークがSpring Frameworkです。PureなJavaでWebアプリケーションを作る（前章のサーブレット）ことの困難さを解決するためにSpringを導入しています。
+
+実際の開発案件では、Pure Javaの上にフレームワークを１枚噛ませて開発することが通常であり、2016年時点では以下の３択でしょう。
+
+- Spring Framework
+- Java EE(6 or 7)
+- その会社独自のフレームワーク
+
+
 
 ## 開発時の注意
 - ブログやQAサイト等での調査は構いませんが、質問・報告時は必ず出典(URL等）を明記すること
