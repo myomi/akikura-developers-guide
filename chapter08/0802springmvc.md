@@ -74,3 +74,5 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response)
 また、これまで学んできたように、JavaとHTMLは全く違う言語です。Javaのコンテキストの中で、HTMLコードを**Java文字列で記述する**など、入力ミスする予感しかしません。Java文字列内の記述は、IDEのコードアシストが効きませんからね。。。
 
 - **（リスク３）ある言語のコンテキスト内に、別の言語が埋め込まれる
+
+### DBアクセス処理 
