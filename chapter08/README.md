@@ -30,10 +30,12 @@ akikuraプロジェクトでは以下のフレームワーク・ライブラリ�
 | 分類 | フレームワーク・ライブラリ | マニュアル |
 | -- | -- | -- |
 | 各フレームワークの統合 | Spring Boot1.3 | http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/ |
-| DIコンテナ・AOP | Spring Framework4 | http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/ |
+| DIコンテナ・AOP・MVC | Spring Framework4 | http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/ |
 | DBアクセス | Spring Data JPA | http://docs.spring.io/spring-data/jpa/docs/current/reference/html/ |
 | HTMLテンプレート | Thymeleaf2.1 | http://www.thymeleaf.org/doc/tutorials/2.1/usingthymeleaf_ja.html |
 | | (ThymeleafのSpring向け機能拡張) | http://www.thymeleaf.org/doc/tutorials/2.1/thymeleafspring.html |
+
+Spring MVC
 
 ## 開発時の注意
 - ブログやQAサイト等での調査は構いませんが、質問・報告時は必ず出典(URL等）を明記すること
