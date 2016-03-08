@@ -26,6 +26,6 @@
 | -- | -- | -- |
 | GET | /akikura/orders | オーダー一覧画面を表示する |
 | GET | /akikura/orders/{id} | 指定されたIDのオーダー詳細画面を表示する |
-| 0:4 | 1:4 | 2:4 |
-| 0:5 | 1:5 | 2:5 |
+| GET | /akikura/orders/entry | オーダー登録画面を表示する |
+| POST | /akikura/orders | オーダー登録を実行する |
 
