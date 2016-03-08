@@ -81,3 +81,6 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response)
 適切なモジュール分割が必要です。
 
 - **（リスク４）適切な粒度で、プロジェクトメンバ全員が共有出来るモジュール分割のルールがない**
+
+## Spring MVC導入のメリット
+以上のリスクを改善する手段として、Webアプリケーションフレームワークの導入が必要です。
