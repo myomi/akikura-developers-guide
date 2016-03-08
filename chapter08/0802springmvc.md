@@ -2,7 +2,6 @@
 
 ここでは、Spring Frameworkに含まれている、「Spring MVC」と言う機能について簡単に解説します。
 
-まずは、
-
+まずは、[6-4. サーブレット](chapter06/0605servlet.md)で出てきた、サーブレットを使ったWebアプリの構成図をもう一度見てください。
 
 ![](../images/image-06-0003.png)
