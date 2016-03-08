@@ -80,4 +80,4 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response)
 
 適切なモジュール分割が必要です。
 
-- **（リスク４）
+- **（リスク４）適切な粒度で、プロジェクトメンバ全員が共有出来るモジュール分割のルールがない**
