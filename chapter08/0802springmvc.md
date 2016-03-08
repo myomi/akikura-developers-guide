@@ -1,4 +1,4 @@
-s# 8-2. Spring MVC概# 8-2. Spring MVC概えエス# 8-2. Spring MVC概# 8-2. Spring MVC概えs# 8-2. Spring MVC概# 8-2. Spring MVC概えエス# 8-2. Spring MVC概# 8-2. Spring MVC概え概# 8-2. Spring MVC概# 8-2. Spring MVC概えエス# 8-2. Spring MVC概# 8-2. Spring MVC概えs# 8-2. Spring MVC概# 8-2. Spring MVC概えエス# 8-2. Spring MVC概# 8-2. Spring MVC概え説
+# 8-2. Spring MVC概説
 
 ここでは、Spring Frameworkに含まれている、「Spring MVC」と言う機能について簡単に解説します。
 
@@ -6,8 +6,13 @@ s# 8-2. Spring MVC概# 8-2. Spring MVC概えエス# 8-2. Spring MVC概# 8-2. Spr
 
 ![](../images/image-06-0003.png)
 
-サーブレットの特徴をおさらいすると、
+サーブレットの特徴をおさらいすると、以下の通りです。
 
 - 特定のURLパスに対するHTTPリクエストが、対応するサーブレットに送られる(例： /app1 -> App1Servlet）
 - サーブレット内の処理は、リクエストされたHTTPメソッドの種類に応じて、service, doPost, doGetなどに振り分けられる
+- 専用のOutputStreamにHTML文字列を出力することにより、HTTPレスポンスを生成できる。
+
+さて、この特徴を踏まえて、サーブレットのみでWebアプリケーションを作成することに対してリスクがないか、考えてみてください。サーブレットのみで、大規模なWebアプリケーションを高速かつ堅牢に作ることはできるでしょうか？
+
+## サーブレットでWebアプリケーションを作ることのリスク
 
