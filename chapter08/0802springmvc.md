@@ -85,4 +85,5 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response)
 ## Spring MVC導入のメリット
 以上のリスクを改善する手段として、Webアプリケーションフレームワークの導入が必要です。タイトルには、「Spring MVC導入のメリット」と書きましたが、これは前述のフレームワークを導入しても同じです。それぞれ、細かな記法や設計方針の違いがありますが、どれも前述のリスクを改善するための手段として、提供されるものと考えてください。
 
+### サブパスの対応
 
