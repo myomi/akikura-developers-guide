@@ -87,3 +87,4 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response)
 
 ### サブパスの対応
 
+![](../images/mvc.png)
