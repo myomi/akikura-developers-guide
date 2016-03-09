@@ -98,7 +98,7 @@ String sex = request.getParameter("sex");
 // 年齢
 String strAge = request.getParameter("age");
 try {
-	Integer.parseInt(strAge);
+	int age = Integer.parseInt(strAge);
 } catch (NumberFormatException e) {
 	// 数値以外が入力された時。。。
 }
