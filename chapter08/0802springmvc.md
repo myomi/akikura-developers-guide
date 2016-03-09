@@ -111,7 +111,7 @@ try {
 ## Spring MVC導入のメリット
 以上のリスクを改善する手段として、Webアプリケーションフレームワークを導入します。タイトルには、「Spring MVC導入のメリット」と書きましたが、これはSpring MVCに限らず、他のWebフレームワークを導入する意図同じです。それぞれ細かな記法や設計方針の違いがありますが、どれも前述のリスクを改善するための手段として提供されるものと認識しましょう。
 
-
+それでは、Spring MVCの導入により前述のリスクがどのように改善されるのかを見ていきましょう。
 
 
 Spring Frameworkのリファレンス[21.2 The DispatcherServlet](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#mvc-servlet)の図21.1を引用します。
