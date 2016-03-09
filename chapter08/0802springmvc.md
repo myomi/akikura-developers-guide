@@ -82,6 +82,8 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response)
 
 - **（リスク４）適切な粒度で、プロジェクトメンバ全員が共有出来るモジュール分割のルールがない**
 
+### TODO 以下、まだ書きかけ！読むな！
+
 ### 全てが文字列
 サーブレット
 
@@ -89,7 +91,7 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response)
 以上のリスクを改善する手段として、Webアプリケーションフレームワークの導入が必要です。タイトルには、「Spring MVC導入のメリット」と書きましたが、これは前述のフレームワークを導入しても同じです。それぞれ、細かな記法や設計方針の違いがありますが、どれも前述のリスクを改善するための手段として、提供されるものと考えてください。
 
 
-### TODO 以下、まだ書きかけ！読むな！
+
 
 Spring Frameworkのリファレンス[21.2 The DispatcherServlet](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#mvc-servlet)の図21.1を引用します。
 
