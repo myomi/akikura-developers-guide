@@ -90,7 +90,19 @@ String name = request.getParameter("name");
 String sex = request.getParameter("sex");
 ```
 
-このように、HttpServletRequest#getParameter(key) で入力値を取り出すわけですが、取り出した値は全て文字列です。
+このように、HttpServletRequest#getParameter(key) で入力値を取り出すわけですが、取り出した値は全て文字列です。できれば適切な型を使ってプログラミングしたいですよね。数値なら、Integer, Long, BigDecimal、日付ならLocalDateなど。。
+
+そこで、以下のようなプログラミングになるわけです。
+
+```java
+// 年齢
+String strAge = request.getParameter("age");
+try {
+	Integer.parseInt(strAge);
+} catch (NumberFormatException e) {
+	// 数値以外が入力された時。。。
+}
+```
 
 ## Spring MVC導入のメリット
 以上のリスクを改善する手段として、Webアプリケーションフレームワークの導入が必要です。タイトルには、「Spring MVC導入のメリット」と書きましたが、これは前述のフレームワークを導入しても同じです。それぞれ、細かな記法や設計方針の違いがありますが、どれも前述のリスクを改善するための手段として、提供されるものと考えてください。
