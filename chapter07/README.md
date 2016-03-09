@@ -18,4 +18,5 @@ STS上で作成したプロジェクトをzip形式でエクスポートして�
 参考例：
 http://homepage1.nifty.com/y-osumi/works/code/eclipse/
 
-Tomcatはzipファイル版を導入するのが良いと思う。
+- Tomcatはzipファイル版を導入するのがオススメ
+- Tomcatはバージョンは8.Xを使用してください
