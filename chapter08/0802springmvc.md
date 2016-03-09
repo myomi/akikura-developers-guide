@@ -114,6 +114,8 @@ try {
 それでは、Spring MVCの導入により前述のリスクがどのように改善されるのかを見ていきましょう。
 
 
-Spring Frameworkのリファレンス[21.2 The DispatcherServlet](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#mvc-servlet)の図21.1を引用します。
+
+### Spring MVCのモジュール構成
+まず、Spring Frameworkのリファレンス[21.2 The DispatcherServlet](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#mvc-servlet)の図21.1を引用します。
 
 ![](../images/mvc.png)
