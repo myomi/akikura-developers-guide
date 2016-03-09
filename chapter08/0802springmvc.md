@@ -85,7 +85,12 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response)
 ### 全てが文字列
 [7.研修 サーブレット](../chapter07/README.md)で作成したプログラムで、フォームに入力された値を取り出す処理をもう一度見てみましょう。
 
+```java
+String name = request.getParameter("name");
+String sex = request.getParameter("sex");
+```
 
+このように、HttpServletRequest#getParameter(key) で入力値を取り出すわけですが、取り出した値は全て文字列です。
 
 ## Spring MVC導入のメリット
 以上のリスクを改善する手段として、Webアプリケーションフレームワークの導入が必要です。タイトルには、「Spring MVC導入のメリット」と書きましたが、これは前述のフレームワークを導入しても同じです。それぞれ、細かな記法や設計方針の違いがありますが、どれも前述のリスクを改善するための手段として、提供されるものと考えてください。
