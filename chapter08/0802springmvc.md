@@ -130,4 +130,4 @@ try {
 Spring MVCには、デフォルトでDispatcherServletというサーブレットクラスが用意されています。そのため開発者はサーブレットを作成する必要がありません。
 
 #### コントローラ
-DispatcherServletは、[7.研修 サーブレット]()
+DispatcherServletは、[7.研修 サーブレット](../)
