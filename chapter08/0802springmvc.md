@@ -133,4 +133,4 @@ Spring MVCには、デフォルトでDispatcherServletというサーブレッ�
 DispatcherServletは、[7.研修 サーブレット](../chapter07/README.md)で作成したものと同様に、特定のパスに対するリクエストを一手に引き受けます。
 図の例だと、/akikuraですね。
 
-が、DispatcherServletは受けたリクエストを自分では処理せず、「コントローラー」
+が、DispatcherServletは受けたリクエストを自分では処理せず、「コントローラー」というクラスに処理を丸投げします。
