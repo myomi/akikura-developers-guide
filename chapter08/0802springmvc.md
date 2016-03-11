@@ -135,4 +135,3 @@ DispatcherServletは、[7.研修 サーブレット](../chapter07/README.md)で�
 
 が、DispatcherServletは受けたリクエストを自分では処理せず、「コントローラー」というクラスに処理を丸投げします。
 
-人間の世界でいうと、テレビ業界ならプロでぃプロでぃ
