@@ -129,7 +129,7 @@ try {
 #### DispatcherServlet
 Spring MVCには、デフォルトでDispatcherServletというサーブレットクラスが用意されています。そのため開発者はサーブレットを作成する必要がありません。
 
-#### コントローラ
+#### コントローラ（MVCの「C」）
 DispatcherServletは、[7.研修 サーブレット](../chapter07/README.md)で作成したものと同様に、特定のパスに対するリクエストを一手に引き受けます。
 図の例だと、/akikuraですね。
 
