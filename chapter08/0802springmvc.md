@@ -135,3 +135,14 @@ DispatcherServletは、[7.研修 サーブレット](../chapter07/README.md)で�
 
 が、DispatcherServletは受けたリクエストを自分では処理せず、「コントローラー」というクラスに処理を丸投げします。
 
+DispatcherServletはどのようにして、コントローラの存在を認識するかというと、@Controller アノテーションをチェックしています。
+akikuraの起動時に、@Controller アノテーション付きのクラスを検索して、仕事丸投げできるマンを探しているのです。
+
+加えて、@RequestMappingアノテーションで、自分が担当するURLパスやHTTPメソッドを宣言しています。
+```java
+@RequestMapping(path="/owners", method=RequestMethod.GET)
+public String xxx() {
+}
+```
+のように書くと、「
+
