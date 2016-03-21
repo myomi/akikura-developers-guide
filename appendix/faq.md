@@ -42,4 +42,4 @@ public class OrderEntryController {
   <input type="text" name="id" id="id"/>
 </form>
 ```
-
+この場合、コントローラ・ビューともに「モデルアトリビュートのことを知らない」ので、エラーなく実行することができます。
