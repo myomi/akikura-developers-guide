@@ -25,7 +25,7 @@ public class OrderForm {
 まず、バインドなしのケースを考えます。
 
 #### コントローラ
-```
+```java
 @Controller
 @RequestMapping("/orders")
 public class OrderEntryController {
