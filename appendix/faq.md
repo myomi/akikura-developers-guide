@@ -99,6 +99,10 @@ public class OrderEntryController {
 }
 ```
 
+皆さんが参考にしている荷主登録画面は、この方式で実装しているはずです。
+
+
+
 #### 参考
 - [Using @ModelAttribute on a method](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#mvc-ann-modelattrib-methods)
 - [Using @ModelAttribute on a method argument](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#mvc-ann-modelattrib-method-args)
