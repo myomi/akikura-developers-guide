@@ -25,3 +25,13 @@ public class OrderForm {
 まず、バインドなしのケースを考えます。
 
 #### コントローラ
+```
+@Controller
+@RequestMapping("/orders")
+public class OrderEntryController {
+	@RequestMapping(path="/entry", method=RequestMethod.GET)
+	public String entry() {
+		return "order/order-entry";
+	}
+}
+```
