@@ -9,7 +9,7 @@ ModelAttribute クラスが以下のように定義されていたとします�
 ```java
 public class OrderForm {
   // getter, setter は省略
-  private Long id;
+  private String id;
 }
 ```
 
@@ -42,3 +42,4 @@ public class OrderEntryController {
   <input type="text" name="id" id="id"/>
 </form>
 ```
+
