@@ -101,7 +101,7 @@ public class OrderEntryController {
 
 皆さんが参考にしている荷主登録画面は、この方式で実装しているはずです。
 
-![](../images/appendix-0002.png)
+![](../images/appendix-0003.png)
 
 #### /orders/entryアクセス時の処理
 利用者が /orders/entry にアクセスした時の処理は以下の通りです。
