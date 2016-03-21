@@ -86,6 +86,19 @@ public class OrderEntryController {
 }
 ```
 
+さらに、Spring Frameworkの仕様で、@RequestMapping メソッドの引数では @ModelAttribute アノテーションを省略できる機能があるため、以下のようにも記載できます。
+
+```java
+@Controller
+@RequestMapping("/orders")
+public class OrderEntryController {
+	@RequestMapping(path="/entry", method=RequestMethod.GET)
+	public String entry(OrderForm form) {
+		return "order/order-entry";
+	}
+}
+```
+
 #### 参考
 - [Using @ModelAttribute on a method](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#mvc-ann-modelattrib-methods)
 - [Using @ModelAttribute on a method argument](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#mvc-ann-modelattrib-method-args)
