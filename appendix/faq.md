@@ -119,3 +119,7 @@ public class OrderEntryController {
 - [Using @ModelAttribute on a method](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#mvc-ann-modelattrib-methods)
 - [Using @ModelAttribute on a method argument](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#mvc-ann-modelattrib-method-args)
 - [Supported handler method arguments](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#portlet-ann-requestmapping-arguments)
+
+### 5. オーダー登録(POST /orders )時の動作
+上記では画面初期表示時の動作について詳細に見ていきました。
+加えて、オーダー登録処理時のフローを抑えれば、コントローラ・ビュー・リクエストスコープ間の
