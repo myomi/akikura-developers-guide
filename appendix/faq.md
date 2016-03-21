@@ -101,7 +101,17 @@ public class OrderEntryController {
 
 皆さんが参考にしている荷主登録画面は、この方式で実装しているはずです。
 
+#### /orders/entryアクセス時の処理
+利用者が /orders/entry にアクセスした時の処理は以下の通りです。
 
+1. 利用者がブラウザで/orders/entryにアクセスする
+2. DispatcherServletがHTTPリクエストを受け取る
+  3. 担当するコントローラを検索 -> OrderEntryController#entry() に決定
+  4. OrderEntryController に@ModelAttributeメソッドがあれば実行し、リクエストスコープに保存 -> 今回は無いのでスキップ
+  5. entry() メソッドに@ModelAttribute つき引数があればコンストラクタ実行し、リクエストスコープに保存 -> orderForm誕生
+6. entry() メソッド実行
+  7. Thymeleafに所定のビュー（order-entry.html）を処理依頼
+8. Thymeleaf は order-entry.htmlを処理して、HTML文字列を生成する。この際、リクエストスコープからorderFormを参照する。
 
 #### 参考
 - [Using @ModelAttribute on a method](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#mvc-ann-modelattrib-methods)
