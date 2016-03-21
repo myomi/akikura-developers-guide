@@ -71,5 +71,5 @@ Spring Framework で@ModelAttribute アノテーションが付与されたメ�
 先ほどさらっと書きましたが、コントローラ
 
 #### 参考
-[](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#mvc-ann-modelattrib-methods)
-[Using @ModelAttribute on a method argument](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#mvc-ann-modelattrib-method-args)
+- [Using @ModelAttribute on a method](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#mvc-ann-modelattrib-methods)
+- [Using @ModelAttribute on a method argument](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#mvc-ann-modelattrib-method-args)
