@@ -38,5 +38,6 @@ public class OrderEntryController {
 
 #### ビュー（抜粋）
 ```html
-
+<form method="post">
+</form>
 ```
