@@ -64,3 +64,5 @@ Spring Framework で@ModelAttribute アノテーションが付与されたメ�
 この定義によりビューは、「リクエストスコープ上に orderForm という名前でオブジェクトが存在する」前提で動作をします。一方、Springは依然としてモデルアトリビュートの存在を知らないため、初期化をしません。
 
 従って、リクエストスコープ上に誰もorderFormを作成することなく、Thymeleafが参照に行くため、エラーとなります。
+
+![](../images/appendix-0002.png)
