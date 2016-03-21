@@ -18,7 +18,6 @@ public class OrderForm {
 | Path | Method | 処理 |
 | -- | -- | -- |
 | /orders/entry | GET | オーダー登録画面の初期表示 |
-| /orders | POST | オーダー登録実行 |
 
 
 ### 1. バインドなし
@@ -62,5 +61,7 @@ Spring Framework で@ModelAttribute アノテーションが付与されたメ�
 </form>
 ```
 
-この定義によりビューは、「リクエストスコープ上に orderForm という名前でオブジェクトが存在する」前提で動作をします。
+この定義によりビューは、「リクエストスコープ上に orderForm という名前でオブジェクトが存在する」前提で動作をします。一方、Springは依然としてモデルアトリビュートの存在を知らないため、初期化をしません。
+
+従って、リクエストスコープ上に誰もorderFormを作成することなく、Thymeleafが参照に
 
