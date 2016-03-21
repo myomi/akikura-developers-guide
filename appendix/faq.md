@@ -36,7 +36,7 @@ public class OrderEntryController {
 }
 ```
 
-#### ビュー
+#### ビュー（抜粋）
 ```html
 
 ```
