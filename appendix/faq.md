@@ -68,7 +68,23 @@ Spring Framework で@ModelAttribute アノテーションが付与されたメ�
 ![](../images/appendix-0002.png)
 
 ### 4. コントローラに@ModelAttribute属性を付与
-先ほどさらっと書きましたが、コントローラ
+先ほどさらっと書きましたが、コントローラは利用者のHTTPリクエストを受けて@RequestMappingメソッドを実行する際、事前に以下の処理を実行します。
+
+- @ModelAttributeアノテーションつきのメソッドを実行して、リクエストスコープに戻り値を保存する。
+- @ModelAttributeアノテーションつきの引数を初期化（コンストラクタ呼び出し）し、リクエストスコープに保存する。
+
+この特性を利用して、@RequestMapping メソッドを以下のように書き換えれば、リクエスト呼び出し時にorderFormを初期化できます。
+
+```java
+@Controller
+@RequestMapping("/orders")
+public class OrderEntryController {
+	@RequestMapping(path="/entry", method=RequestMethod.GET)
+	public String entry(@ModelAttribute OrderForm form) {
+		return "order/order-entry";
+	}
+}
+```
 
 #### 参考
 - [Using @ModelAttribute on a method](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#mvc-ann-modelattrib-methods)
