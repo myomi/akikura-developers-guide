@@ -14,6 +14,10 @@ public class OrderForm {
 
 また、以下のHTTPリクエストに対応する処理を実装中とします。
 
+| Path | Method | 処理 |
+| -- | -- | -- |
+| /orders/entry | GET | オーダー登録画面の初期表示 |
+| /orders | POST | オーダー登録実行 |
 
 
 ### 1. バインドなし
