@@ -50,4 +50,5 @@ Spring FrameworkとThymeleafは、ユーザからHTTPリクエストが送られ
 
 Spring Framework で@ModelAttribute アノテーションが付与されたメソッドや引数は、リクエストの都度初期化され、リクエストスコープに保存されます。
 
+### 3. ビューにth:object属性を付与
 
