@@ -5,6 +5,7 @@
 ### 0. 前提
 ModelAttribute クラスが以下のように定義されていたとします。
 
+#### モデルアトリビュート(OrderForm)
 ```java
 public class OrderForm {
   // getter, setter は省略
@@ -21,4 +22,6 @@ public class OrderForm {
 
 
 ### 1. バインドなし
-まず、バインドなしのケースを
+まず、バインドなしのケースを考えます。
+
+#### コントローラ
