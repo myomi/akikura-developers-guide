@@ -113,6 +113,8 @@ public class OrderEntryController {
   7. Thymeleafに所定のビュー（order-entry.html）を処理依頼
 8. Thymeleaf は order-entry.htmlを処理して、HTML文字列を生成する。この際、リクエストスコープからorderFormを参照する。
 
+
+
 #### 参考
 - [Using @ModelAttribute on a method](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#mvc-ann-modelattrib-methods)
 - [Using @ModelAttribute on a method argument](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#mvc-ann-modelattrib-method-args)
