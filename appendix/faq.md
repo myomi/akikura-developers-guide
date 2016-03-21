@@ -54,3 +54,10 @@ Spring Framework で@ModelAttribute アノテーションが付与されたメ�
 
 ### 3. ビューにth:object属性を付与
 
+ビューにth:object属性を付与して、モデルアトリビュートをバインドします。
+
+```html
+<form method="post" th:object="${orderForm}">
+  <input type="text" th:field="*{id}"/>
+</form>
+```
