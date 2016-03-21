@@ -61,3 +61,6 @@ Spring Framework で@ModelAttribute アノテーションが付与されたメ�
   <input type="text" th:field="*{id}"/>
 </form>
 ```
+
+この定義によりビューは、「リクエストスコープ上に orderForm という名前でオブジェクトが存在する」前提で動作をします。
+
