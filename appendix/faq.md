@@ -68,4 +68,8 @@ Spring Framework で@ModelAttribute アノテーションが付与されたメ�
 ![](../images/appendix-0002.png)
 
 ### 4. コントローラに@ModelAttribute属性を付与
+先ほどさらっと書きましたが、コントローラ
 
+#### 参考
+[](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#mvc-ann-modelattrib-methods)
+[](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#mvc-ann-modelattrib-method-args)
