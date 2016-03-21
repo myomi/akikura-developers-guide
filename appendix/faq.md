@@ -66,3 +66,6 @@ Spring Framework で@ModelAttribute アノテーションが付与されたメ�
 従って、リクエストスコープ上に誰もorderFormを作成することなく、Thymeleafが参照に行くため、エラーとなります。
 
 ![](../images/appendix-0002.png)
+
+### 4. コントローラに@ModelAttribute属性を付与
+
