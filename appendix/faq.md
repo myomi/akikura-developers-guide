@@ -102,3 +102,4 @@ public class OrderEntryController {
 #### 参考
 - [Using @ModelAttribute on a method](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#mvc-ann-modelattrib-methods)
 - [Using @ModelAttribute on a method argument](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#mvc-ann-modelattrib-method-args)
+- [Supported handler method arguments](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#portlet-ann-requestmapping-arguments)
