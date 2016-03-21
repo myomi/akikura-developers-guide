@@ -39,5 +39,6 @@ public class OrderEntryController {
 #### ビュー（抜粋）
 ```html
 <form method="post">
+  <input type="text" name="id" id="id"/>
 </form>
 ```
