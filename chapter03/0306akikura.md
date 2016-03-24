@@ -62,6 +62,10 @@ STS(Eclipse）の自動ビルド機能が有効になっているため、ソー
 
 Package Exploler が見当たらなければ、メニューの
  Window -> Show View -> Package Explorer を選択して、表示させてください。
+ 
+ ![](../images/image-03-0060.png)
+ 
+ 
 
 ## akikuraの起動方法
 ここではakikuraの起動方法と動作確認方法について説明します。以降、本書で「akikuraを起動し〜」のように記載されている場合は、すべてここで説明する作業のことを指します。
