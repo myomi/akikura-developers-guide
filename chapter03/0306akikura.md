@@ -101,4 +101,4 @@ akikuraプロジェクトを選択した状態で 右クリック -> Run As -> S
 ### 4. 動作確認
 以下の手順で動作確認を行います。
 - Google Chromeを起動する
-- アドレス欄に、http://localhost:8080/ と入力してEnter
+- アドレス欄に、http://localhost:8080/ と入力してEnterキー押下
