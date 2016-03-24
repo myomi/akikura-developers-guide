@@ -96,7 +96,7 @@ akikuraプロジェクトを選択した状態で 右クリック -> Run As -> S
 
 実行にはしばらく時間がかかります。Consoleビューに起動処理の状況（ログと言います）が表示されるので、「Started AkikuraApplication in X.XXX seconds...」のように表示されればアプリケーションの起動に成功しています。
 
-
+ ![](../images/image-03-0061.png)
 
 ### 4. 動作確認
 
