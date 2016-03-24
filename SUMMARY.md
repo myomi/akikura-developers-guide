@@ -27,7 +27,7 @@
    * [3-3. ファイルサーバに接続する](chapter03/0303scp.md)
    * [3-4. Subversionに接続する](chapter03/0304svn.md)
    * [3-5. データベースに接続する](chapter03/0305db.md)
-   * [3-6. アプリケーション商蔵(akikura)について](chapter03/0306akikura.md)
+   * [3-6. アプリケーション商蔵(akikura)について](chapter03/0306akikura)
 * [4.研修 リレーショナルデータベース基礎](chapter04/README.md)
    * [4-1. read - SELECT文](chapter04/0401select.md)
    * [4-2. write - INSERT文](chapter04/0402insert.md)
