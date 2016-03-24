@@ -46,6 +46,8 @@ akikuraは、利用者が入力した業務データを保存するための**�
 ### 2.「Spring」パースペクティブを選択
 画面右上より、Springパースペクティブを選択します。
 
+![](../images/image-03-0057.png)
+
 
 - Google Chromeを起動
 - http://localhost:8080/tutorial/課題番号.html にアクセス
