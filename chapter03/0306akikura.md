@@ -48,6 +48,13 @@ akikuraは、利用者が入力した業務データを保存するための**�
 
 ![](../images/image-03-0057.png)
 
+もし見当たらなければ、「追加」ボタンを押し、
+
+![](../images/image-03-0058.png)
+
+パースペクティブ選択ダイアログの中からSpringを選択し、「OK」をクリックします。
+
+![](../images/image-03-0059.png)
 
 - Google Chromeを起動
 - http://localhost:8080/tutorial/課題番号.html にアクセス
