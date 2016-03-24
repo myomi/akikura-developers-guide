@@ -103,3 +103,4 @@ akikuraプロジェクトを選択した状態で 右クリック -> Run As -> S
 - Google Chromeを起動する
 - アドレス欄に、http://localhost:8080/ と入力してEnterキー押下
 - オレンジ色の眩しいwebサイトが表示されれば、OKです。
+
