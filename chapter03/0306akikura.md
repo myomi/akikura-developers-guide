@@ -99,6 +99,6 @@ akikuraプロジェクトを選択した状態で 右クリック -> Run As -> S
  ![](../images/image-03-0061.png)
 
 ### 4. 動作確認
-
-- Google Chromeを起動
-- http://localhost:8080/tutorial/課題番号.html にアクセス
+以下の手順で動作確認を行います。
+- Google Chromeを起動する
+- アドレス欄に、http://localhost:8080/ と入力してEnter
